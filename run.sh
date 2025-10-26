@@ -1,0 +1,6 @@
+python -m torch.distributed.launch --nproc_per_node=4 --master_port=29500 ./tools/train.py ./configs/occupancy/mv-occ-drocc.py  --work-dir=./work_dirs/drocc --launcher="pytorch"
+python -m torch.distributed.launch --nproc_per_node=4 --master_port=29500 ./tools/test.py ./configs/occupancy/mv-occ-drocc.py ./work_dirs/drocc/epoch_24.pth --launcher="pytorch"
+#python -m torch.distributed.launch --nproc_per_node=4 --master_port=29500 ./tools/train.py ./configs/occupancy/cont-occ_embodied_rgbonly.py --work-dir=./work_dirs/cont-occ_embodied_rgbonly --launcher="pytorch"
+#python -m torch.distributed.launch --nproc_per_node=4 --master_port=29500 ./tools/train.py ./configs/occupancy/cont-occ_embodied_depthonly.py --work-dir=./work_dirs/cont-occ_embodied_depthonly --launcher="pytorch"
+#CUDA_VISIBLE_DEVICES=2 python tools/test.py ./configs/occupancy/cont-occ_embodied_rgbonly.py ./work_dirs/cont-occ_embodied_rgbonly/epoch_24.pth
+#CUDA_VISIBLE_DEVICES=3 python tools/test.py ./configs/occupancy/cont-occ_embodied_depthonly.py ./work_dirs/cont-occ_embodied_depthonly/epoch_24.pth

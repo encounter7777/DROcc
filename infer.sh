@@ -1,0 +1,3 @@
+#python -m torch.distributed.launch --nproc_per_node=4 --master_port=25622 tools/test.py configs/occupancy/cont-occ_8xb1_embodiedscan-occ-80class.py /home/amax/Documents/fsz/Embodiedscan/em_ckpts/EmbodiedScan/cont-occ.pth --launcher="pytorch"
+python -m torch.distributed.launch --nproc_per_node=4 --master_port=25622  tools/test.py ./configs/occupancy/cont-occ_embodied_rgbonly.py ./work_dirs/cont-occ_embodied_rgbonly/epoch_24.pth --launcher="pytorch"
+python -m torch.distributed.launch --nproc_per_node=4 --master_port=25622  tools/test.py ./configs/occupancy/cont-occ_embodied_depthonly.py ./work_dirs/cont-occ_embodied_depthonly/epoch_24.pth --launcher="pytorch"
