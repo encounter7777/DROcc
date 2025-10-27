@@ -35,7 +35,7 @@ model = dict(
               num_outs=4),
     backbone_3d=dict(type='MinkResNet', in_channels=3, depth=34),
     bbox_head=dict(
-        type='ImVoxelOccHead_ca_ms_swin2_pointq',
+        type='ImVoxelOccHead_drocc_pointq',
         volume_h=[20, 10, 5],
         volume_w=[20, 10, 5],
         volume_z=[8, 4, 2],
