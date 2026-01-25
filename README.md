@@ -1,4 +1,4 @@
-# DRocc: Occupancy Prediction on EmbodiedScan
+# DRocc: Dual Residual Transformer for Indoor Occupancy Prediction
 
 DRocc provides multi-view occupancy prediction on the EmbodiedScan dataset. It builds on the DenseFusion/ImVoxel occupancy pipeline with DRocc-specific heads and configs.
 
