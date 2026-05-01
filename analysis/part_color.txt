@@ -1,0 +1,32 @@
+\definecolor{emptyColor}{RGB}{255, 255, 255}
+\definecolor{floorColor}{RGB}{255, 120, 50}   % 地板颜色，对应 floor
+\definecolor{wallColor}{RGB}{255, 192, 203}   % 粉红色，对应 wall
+\definecolor{chairColor}{RGB}{255, 255, 0}    % 黄色，对应 chair
+\definecolor{cabinetColor}{RGB}{0, 150, 245}  % 蓝色，对应 cabinet
+\definecolor{doorColor}{RGB}{0, 255, 255}     % 青色，对应 door
+\definecolor{tableColor}{RGB}{0, 175, 0}      % 绿色，对应 table
+\definecolor{couchColor}{RGB}{255, 0, 0}      % 红色，对应 couch
+\definecolor{shelfColor}{RGB}{127, 127, 127}  % 灰色，对应 shelf
+\definecolor{windowColor}{RGB}{135, 60, 0}    % 棕色，对应 window
+\definecolor{bedColor}{RGB}{160, 32, 240}     % 紫色，对应 bed
+\definecolor{curtainColor}{RGB}{255, 0, 255}  % 粉红色，对应 curtain
+\definecolor{refrigeratorColor}{RGB}{175, 0, 75}     % 棕色，对应 refrigerator
+\definecolor{plantColor}{RGB}{200, 137, 137}  % 灰色，对应 plant
+\definecolor{stairsColor}{RGB}{75, 0, 75}     % 紫色，对应 stairs
+\definecolor{toiletColor}{RGB}{150, 240, 80}  % 绿色，对应 toilet
+
+\definecolor{roofColor}{RGB}{255, 173, 50}   % 屋顶颜色，对应 roof
+\definecolor{beamColor}{RGB}{100, 200, 0}    % 梁颜色，对应 beam
+\definecolor{frameColor}{RGB}{100, 191, 255} % 框架颜色，对应 frame
+\definecolor{exerciseEquipmentColor}{RGB}{0, 255, 127} % 健身器材颜色，对应 exercise equipment
+\definecolor{microwaveColor}{RGB}{255, 200, 50} % 微波炉颜色，对应 microwave
+\definecolor{printerColor}{RGB}{230, 230, 250} % 打印机颜色，对应 printer
+\definecolor{ovenColor}{RGB}{214, 255, 50}   % 烤箱颜色，对应 oven
+\definecolor{washbasinColor}{RGB}{50, 200, 192} % 洗手盆颜色，对应 washbasin
+\definecolor{partitionColor}{RGB}{50, 55, 255} % 隔断颜色，对应 partition
+\definecolor{pianoColor}{RGB}{150, 182, 255}  % 钢琴颜色，对应 piano
+\definecolor{countertopColor}{RGB}{91, 50, 255} % 橱柜台面颜色，对应 countertop
+\definecolor{drawerColor}{RGB}{200, 150, 45} % 抽屉颜色，对应 drawer
+\definecolor{carpetColor}{RGB}{255, 100, 173}  % 地毯颜色，对应 carpet
+\definecolor{bicycleColor}{RGB}{222, 150, 255} % 抽屉颜色，对应 bicycle
+\definecolor{mailboxColor}{RGB}{255, 50, 173}  % 地毯颜色，对应 mailbox
